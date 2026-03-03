@@ -3436,7 +3436,7 @@ FreeEmotes_Button.MouseButton1Click:Connect(function()
 	if not FreeEmotesEnabled then
 		FreeEmotesEnabled = true
 		SendNotify("JIAOZI","./.")
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/otaptinapay08/https-github.com-teptepscript/refs/heads/main/otepemotes.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/otaptinapay08/tepteps/refs/heads/main/otepemotes.lua"))()
 	end
 end)
 
